@@ -82,7 +82,7 @@ main {
     margin-bottom: 3rem;
 }
 
-.explore-find-now {
+.explore-find-now form {
     display: inline-flex;
     padding: 16px;
     align-items: flex-start;
@@ -102,11 +102,57 @@ main {
     background: #FF5400;
     color: #FFF;
     font-weight: 700;
+    padding: 16px 100px 16px 15px;
+
 }
 
+/* popular tour */
 
+.popular-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.popular-text {
+    max-width: 580px;
+}
+
+.popular-text h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0 0 24px 0;
+}
+
+.popular-text p,
+.popular-text li {
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 0 24px 0;
+}
+
+.popular-text li {
+    margin: 0 0 12px 0;
+}
+
+.popular-text a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 14px 35px;
+}
 
 @media screen and (max-width: 600px) {
+    main {
+        margin: 0 auto;
+    }
+
     nav {
         display: none;
     }
@@ -130,7 +176,7 @@ main {
         line-height: 21px;
     }
 
-    .explore-find-now {
+    .explore-find-now form {
         width: 287px;
         display: flex;
         flex-direction: column;
@@ -140,5 +186,27 @@ main {
 
     .explore-find-now input {
         padding: 16px 100px 16px 15px;
+    }
+
+    .popular-container {
+        flex-direction: column;
+        /* justify-content: center; */
+        margin: 0 auto;
+        gap: 24px;
+    }
+
+    .popular-text {
+        margin: 0 20px;
+
+    }
+    .popular-text h1,
+    .popular-text p
+    {
+        margin: 0 0 16px 0;
+    }
+
+    .popular-img {
+
+        margin: 0 auto;
     }
 }
