@@ -1,0 +1,144 @@
+html {
+    font-family: 'Sora', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Nav bar */
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 0 auto;
+
+}
+
+.nav-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-right ul {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.nav-right ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-right ul li a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+
+}
+
+#nav-home {
+    color: #FF5400;
+    font-weight: 700;
+}
+
+/* Explore */
+
+main {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.explore {
+    background-image: linear-gradient(to bottom, rgba(19, 19, 24, 1), rgba(19, 19, 24, 0)), url("../Images/Group-13.png");
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    height: 500px;
+    width: 1170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+.explore p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+    margin-bottom: 3rem;
+}
+
+.explore-find-now {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.explore-find-now input {
+    padding: 16px 50px 16px 15px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+}
+
+.explore-find-now input:nth-of-type(4) {
+    background: #FF5400;
+    color: #FFF;
+    font-weight: 700;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    nav {
+        display: none;
+    }
+
+    .explore {
+        width: 335px;
+        height: 483px;
+        padding: 32px;
+        flex-direction: column;
+        margin: 0 auto;
+        background-position: center;
+    }
+
+    .explore h1 {
+        font-size: 22px;
+        font-weight: 800;
+    }
+
+    .explore p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .explore-find-now {
+        width: 287px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .explore-find-now input {
+        padding: 16px 100px 16px 15px;
+    }
+}
