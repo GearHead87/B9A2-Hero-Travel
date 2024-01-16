@@ -382,6 +382,7 @@ nav label {
 
 .perfect-content {
     /* max-width: 580px; */
+    margin: 100px 0;
 }
 
 .perfect-content h1 {
@@ -553,7 +554,7 @@ footer hr {
     }
 
     .explore {
-        width: 335px;
+        width: 70%;
         height: 483px;
         padding: 32px;
         flex-direction: column;
@@ -679,7 +680,8 @@ footer hr {
     }
 
     .perfect-content {
-        width: 70%;
+        /* width: 70%; */
+        margin: 5px 0;
     }
 
     .perfect-img img {
