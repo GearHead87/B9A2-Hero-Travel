@@ -378,11 +378,11 @@ nav label {
     flex-direction: row;
     justify-content: space-between;
     gap: 28px;
+    /* margin: 100px 0; */
 }
 
 .perfect-content {
     /* max-width: 580px; */
-    margin: 100px 0;
 }
 
 .perfect-content h1 {
@@ -421,6 +421,8 @@ nav label {
     justify-content: space-between;
     align-items: center;
     gap: 24px;
+    margin: 50px 0;
+
 }
 
 .newsletter-container hr {
@@ -496,6 +498,7 @@ nav label {
 
 /* footer */
 footer {
+    background: rgba(19, 19, 24, 0.05);
     display: flex;
     flex-direction: column;
     justify-content: center;
