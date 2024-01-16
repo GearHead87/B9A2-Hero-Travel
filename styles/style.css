@@ -421,7 +421,7 @@ nav label {
     justify-content: space-between;
     align-items: center;
     gap: 24px;
-    margin: 50px 0;
+    margin: 100px 0;
 
 }
 
@@ -693,6 +693,7 @@ footer hr {
 
     .newsletter-container {
         flex-direction: column;
+        margin: 25px 0;
     }
 
     .newsletter {
