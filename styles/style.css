@@ -319,8 +319,8 @@ nav label {
     backdrop-filter: blur(2.5px);
     position: relative;
     top: 50px;
-    left: 55%;
-    padding: 50px 0 0 50px;
+    left: 53%;
+    padding: 50px 50px 25px 50px;
 }
 
 .deals-one-inside div>p {
